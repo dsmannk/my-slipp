@@ -11,6 +11,7 @@
 	<groupId>net.slipp</groupId>
 	<artifactId>my-slipp</artifactId>
 	<version>1.0</version>
+	<packaging>war</packaging>
 	<name>my-slipp</name>
 	<description>SLIPP QnA</description>
 
@@ -26,6 +27,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
